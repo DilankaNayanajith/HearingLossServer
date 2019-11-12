@@ -16,4 +16,5 @@ if __name__ == '__main__':
     lr = joblib.load("model.pkl") # Load "model.pkl"
     print ('Model loaded')
     #app.run(port=port, debug=True)
+    #port
     app.run(debug=True,host='0.0.0.0',port=port)
